@@ -9,5 +9,16 @@
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="logo-html"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-Css" />
 
+<p>Projeto feito para cadastrar pedidos e clientes. Primeira tela(pagína Home);</p><br/>
+<img src="https://github.com/andersonpontes88/burger-and-point/blob/main/src/images/Cap-Home.png?raw=true" alt="print-da-tela-Home"/><br/>
 
+<p>Botão de cadastrar os pedidos e clientes com efeito;</p><br/>
+<img src="https://github.com/andersonpontes88/burger-and-point/blob/main/src/images/Cap-Home1.png?raw=true" alt="print-da-tela-Home"/><br/>
+
+<p>Segunda tela, pagína para mostrar os pedidos realizados</p>
+<img src="https://github.com/andersonpontes88/burger-and-point/blob/main/src/images/Cap-Pedidos.png?raw=true" alt"print-tela-de-pedidos" /><br/>
+
+<p>E finalizando com responsividade de telas.</p><br/>
+<img src="https://github.com/andersonpontes88/burger-and-point/blob/main/src/images/Macbook-Air-localhost.png?raw=true" alt="print-tela-responsiva" />
+<img src="https://github.com/andersonpontes88/burger-and-point/blob/main/src/images/iPhone-13-PRO-localhost.png?raw=true" alt="print-tela-responsiva-cell"/>
 
