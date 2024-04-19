@@ -1,19 +1,22 @@
 import React, { useState, useEffect } from "react";
-import BurgerReady from "../../assets/burger-gif4-unscreen.gif";
 import { useHistory } from "react-router-dom";
+import axios from "axios";
 
-import {
-  ContainerMain,
-  Container,
-  Image,
-  ContainerItens,
-  H1,
-  Button,
-  List,
-} from "./styles";
+import H1 from "../../Components/Title"
+import Container from "../../Components/ContainerItens"
+import ContainerMain from "../../Components/BackgroundsPages"
+import Button from "../../Components/Buttons"
+
+import BurgerReady from "../../assets/burger-gif4-unscreen.gif";
 import Arrow from "../../assets/arrow3.png";
 import Bin from "../../assets/bin.svg";
-import axios from "axios";
+
+import {
+  Image,
+  ContainerItens,
+  List,
+} from "./styles";
+
 
 const Users = () => {
   const [users, setUsers] = useState([]);
@@ -46,9 +49,9 @@ function navegation() {
   }
 
   return (
-    <ContainerMain>
+    <ContainerMain isBottom={true} >
 
-      <Container>
+      <Container isPage={true} >
         <Image alt="logo-burger-completo" src={BurgerReady} />
 
         <ContainerItens>
@@ -70,7 +73,7 @@ function navegation() {
             ))}
           </ul>
 
-          <Button onClick={navegation}>
+          <Button isBack={true} onClick={navegation}>
             <img alt="seta" src={Arrow} /> Voltar
           </Button>
 

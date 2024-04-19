@@ -1,18 +1,20 @@
 import React, { useState, useRef } from "react";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
+
+import H1 from "../../Components/Title"
+import Container from "../../Components/ContainerItens"
+import ContainerMain from "../../Components/BackgroundsPages"
+import Button from "../../Components/Buttons"
+
 import BurgerGif from "../../assets/burger-png.gif";
 import Arrow from "../../assets/arrow3.png";
 
 import {
-  ContainerMain,
-  Container,
   Image,
   ContainerItens,
-  H1,
   InputLabel,
   Input,
-  Button,
 } from "./styles";
 
 
@@ -38,12 +40,12 @@ const App = () => {
   }
   
 
-  
   return (
     <ContainerMain>
 
       <Container>
         <Image alt="logo-burger-gif" src={BurgerGif} />
+
         <ContainerItens>
           <H1>Faça seu pedido!</H1>
 
@@ -54,11 +56,8 @@ const App = () => {
           <Input ref={inpuntClient} placeholder="Nome" />
 
           <Button onClick={newOrderList}>
-            Novo pedido <img alt="seta" src={Arrow} />{" "}
+            Novo pedido <img alt="seta" src={Arrow} />
           </Button>
-
-
-
         </ContainerItens>
 
       </Container>
