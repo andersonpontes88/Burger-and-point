@@ -9,7 +9,10 @@
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="logo-html"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-Css" />
 
-<p>Projeto feito para cadastrar pedidos e clientes. Primeira tela(pagína Home);</p><br/>
+<p>Projeto feito para cadastrar pedidos e clientes. Primeira tela(pagína Home). Utilizei “Html”, “CSS”, “JavaScript”, “React”, BackEnd utilizei o “NodeJS”.
+No node utilizei três rotas, GET, POST e DELETE.
+Criei toda a base do projeto iniciando pelo React e assim fazendo utilização de bibliotecas, Hooks. Utilizei o react-router-dom@5.
+Hooks usados: UseState, UseRef e UseEffect . Usei o UseHistory para poder fazer as navegações entre as duas páginas. Axios para ir no back-end trazer, mostrar e armazenar dados.</p><br/>
 <img src="https://github.com/andersonpontes88/burger-and-point/blob/main/src/images/Cap-Home.png?raw=true" alt="print-da-tela-Home"/><br/>
 
 <p>Botão de cadastrar os pedidos e clientes com efeito;</p><br/>
