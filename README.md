@@ -15,7 +15,7 @@
 <p>Botão de cadastrar os pedidos e clientes com efeito;</p><br/>
 <img src="https://github.com/andersonpontes88/burger-and-point/blob/main/src/images/Cap-Home1.png?raw=true" alt="print-da-tela-Home"/><br/>
 
-<p>Segunda tela, pagína para mostrar os pedidos realizados</p>
+<p>Segunda tela, página para mostrar os pedidos realizados</p>
 <img src="https://github.com/andersonpontes88/burger-and-point/blob/main/src/images/Cap-Pedidos.png?raw=true" alt"print-tela-de-pedidos" /><br/>
 
 <p>E finalizando com responsividade de telas.</p><br/>
